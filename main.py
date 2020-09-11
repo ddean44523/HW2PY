@@ -1,6 +1,6 @@
 # Author: Daniel Dean dpd5518@psu.edu
 
-def getLetterGrade(grade):
+def getGradePoint(grade):
   if grade == 'A':
      grade = 4.0
   elif grade =='A-':
@@ -22,13 +22,13 @@ def getLetterGrade(grade):
   return grade
 
 if __name__ == '__main__':
-  gradeOne = getLetterGrade(input("Enter your course 1 letter grade: "))
+  gradeOne = getGradePoint(input("Enter your course 1 letter grade: "))
   creditOne = int(input("Enter your course 1 credit: "))
   print(f"Grade point for course 1 is: {gradeOne}")
-  gradeTwo = getLetterGrade(input("Enter your course 2 letter grade: "))
+  gradeTwo = getGradePoint(input("Enter your course 2 letter grade: "))
   creditTwo = int(input("Enter your course 2 credit: "))
   print(f"Grade point for course 1 is: {gradeTwo}")
-  gradeThree = getLetterGrade(input("Enter your course 3 letter grade: "))
+  gradeThree = getGradePoint(input("Enter your course 3 letter grade: "))
   creditThree = int(input("Enter your course 3 credit: "))
   print(f"Grade point for course 3 is: {gradeThree}")
   print (f"Your GPA is: {(gradeOne * creditOne + gradeTwo * creditTwo + gradeThree * creditThree) / (creditOne + creditTwo + creditThree)}")
