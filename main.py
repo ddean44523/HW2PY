@@ -31,4 +31,4 @@ if __name__ == '__main__':
   gradeThree = getGradePoint(input("Enter your course 3 letter grade: "))
   creditThree = int(input("Enter your course 3 credit: "))
   print(f"Grade point for course 3 is: {gradeThree}")
-  print (f"Your GPA is: {(gradeOne * creditOne + gradeTwo * creditTwo + gradeThree * creditThree) / (creditOne + creditTwo + creditThree)}")
+  print (f"Your GPA is: {(gradeOne * creditOne + gradeTwo * creditTwo + gradeThree * creditThree) / (creditOne + creditTwo + creditThree)}") 
