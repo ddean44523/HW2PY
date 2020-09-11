@@ -27,7 +27,7 @@ if __name__ == '__main__':
   print(f"Grade point for course 1 is: {gradeOne}")
   gradeTwo = getGradePoint(input("Enter your course 2 letter grade: "))
   creditTwo = int(input("Enter your course 2 credit: "))
-  print(f"Grade point for course 1 is: {gradeTwo}")
+  print(f"Grade point for course 2 is: {gradeTwo}")
   gradeThree = getGradePoint(input("Enter your course 3 letter grade: "))
   creditThree = int(input("Enter your course 3 credit: "))
   print(f"Grade point for course 3 is: {gradeThree}")
